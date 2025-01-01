@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borcelle Contact Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #c0c4c8;
+      }
+      .container {
+        width: 70%;
+        max-width: 800px;
+        background-color: #f1e9e9;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      nav {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+      }
+      .contact-header {
+        margin-bottom: 20px;
+      }
+      .contact-header h2 {
+        margin: 0;
+      }
+      .contact-header p {
+        color: #777;
+      }
+      .form-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        background-color: #ccc;
+        color: rgb(229, 234, 243);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      button:hover {
+        background-color: #bbb;
+      }
+      .email-info {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      </header>
+
+      <div class="contact-header">
+        <h2>Contact</h2>
+        <p>Please fill out the form below to send us an email.</p>
+      </div>
+
+      <div class="email-info">
+        <p><strong>Email:</strong> hello@reallygreatsite.com</p>
+      </div>
+
+      <div class="form-container">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea
+            name="message"
+            placeholder="Message"
+            rows="5"
+            required
+          ></textarea>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
